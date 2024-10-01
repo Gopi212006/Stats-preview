@@ -108,28 +108,38 @@ span{
     display: flex;
     flex-direction: column-reverse;
     min-width: 300px;
-    width: 40%;
-    margin: 0px;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
     padding: 0%;
 }
  .bgimage{
     width: 100%;
  }
  .container1{
-    width: 100%;
-    padding: 30px;
-    margin: 0px;
+     width: 100%; 
+     padding:0px;
+     margin: 0px;
  }
 .container1 h1{
-    width:40% ;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    width:95%;
+    padding: 0%;
+    text-align: center;
+    
 }
 .container1 p{
-    width: 39%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.container2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 }
 
 
